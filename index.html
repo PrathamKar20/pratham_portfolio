@@ -193,6 +193,7 @@
   <div class="wrap">
     <a class="brand" href="#top">PRATHAM<span>KAR</span></a>
     <div class="nav-links">
+      <a href="#education">Education</a>
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
       <a href="#projects">Projects</a>
@@ -226,6 +227,38 @@
     </div>
   </div>
 </header>
+
+<section id="education">
+  <div class="wrap">
+    <div class="section-label">Academics</div>
+    <h2 class="section-title">Education</h2>
+    <p class="section-sub">Formal education, most recent first.</p>
+    <div class="tl">
+      <div class="tl-item">
+        <div class="tl-date">2022 – 2026</div>
+        <div>
+          <p class="tl-role">B.Tech, Electronics &amp; Communication Engineering (AI/ML)</p>
+          <p class="tl-org">GITAM (Deemed to be University), Visakhapatnam — CGPA 8.06/10</p>
+          <p class="tl-desc">Relevant coursework: Data Structures &amp; Algorithms, OOP, DBMS, Operating Systems, Computer Networks.</p>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-date">2021</div>
+        <div>
+          <p class="tl-role">Class XII — CBSE</p>
+          <p class="tl-org">L.R. DAV Public School, Cuttack, Odisha — 90.6%</p>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-date">2019</div>
+        <div>
+          <p class="tl-role">Class X — ICSE</p>
+          <p class="tl-org">Stewart School, Cuttack, Odisha — 94%</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <section id="about">
   <div class="wrap">
@@ -284,18 +317,19 @@
       <div class="skill-card">
         <h4>Backend &amp; Infra</h4>
         <div class="chips">
-          <span class="chip">Python</span><span class="chip">FastAPI</span><span class="chip">Django</span>
-          <span class="chip">DRF</span><span class="chip">REST APIs</span><span class="chip">JWT Auth</span>
+          <span class="chip">Python</span><span class="chip">JavaScript (basics)</span><span class="chip">FastAPI</span><span class="chip">Django</span>
+          <span class="chip">DRF</span><span class="chip">REST APIs</span><span class="chip">ORM</span><span class="chip">JWT Auth</span><span class="chip">bcrypt</span>
           <span class="chip">PostgreSQL</span><span class="chip">SQLite</span><span class="chip">Redis</span>
           <span class="chip">Celery</span><span class="chip">Docker</span><span class="chip">SQLAlchemy</span><span class="chip">Pydantic</span>
+          <span class="chip">Pandas</span><span class="chip">NumPy (basic)</span><span class="chip">HTML/CSS</span>
         </div>
       </div>
       <div class="skill-card">
         <h4>Engineering Foundations</h4>
         <div class="chips">
-          <span class="chip">DSA</span><span class="chip">OOP</span><span class="chip">SOLID</span>
-          <span class="chip">Caching</span><span class="chip">CAP Theorem</span><span class="chip">DB Indexing</span>
-          <span class="chip">Kafka</span><span class="chip">API Gateway</span>
+          <span class="chip">DSA</span><span class="chip">OOP</span><span class="chip">SOLID</span><span class="chip">DRY / KISS</span>
+          <span class="chip">Caching (cache-aside, eviction)</span><span class="chip">CAP Theorem</span><span class="chip">DB Indexing (B-Trees)</span>
+          <span class="chip">Kafka (partitions, consumer groups)</span><span class="chip">API Gateway</span><span class="chip">Redis Internals</span>
           <span class="chip">Postman</span><span class="chip">Swagger</span><span class="chip">Git/GitHub</span>
           <span class="chip">Unit/Integration Testing</span>
         </div>
@@ -336,6 +370,9 @@
         system is actually trustworthy — evaluation, not just generation.
       </div>
       <ul class="project-bullets">
+        <li>Ingests PDF/Markdown/text documents with <b>semantic chunking</b> (RecursiveCharacterTextSplitter) and embeds
+          them with OpenAI's <b>text-embedding-3-small</b> model into a persisted Chroma store, retrieving top-k
+          matches ranked by distance score alongside source metadata for traceability</li>
         <li>Combines <b>semantic search + BM25 keyword search</b> via Reciprocal Rank Fusion, then applies
           <b>cross-encoder reranking</b> to sharpen the final context set before generation</li>
         <li>Grounds generation (gpt-4o-mini) strictly in retrieved context with prompt constraints forcing an
@@ -448,7 +485,7 @@
 <section id="experience">
   <div class="wrap">
     <div class="section-label">Background</div>
-    <h2 class="section-title">Experience &amp; Education</h2>
+    <h2 class="section-title">Experience</h2>
     <div class="tl">
       <div class="tl-item">
         <div class="tl-date">Internship</div>
@@ -456,28 +493,6 @@
           <p class="tl-role">Digital Communications Intern</p>
           <p class="tl-org">BSNL</p>
           <p class="tl-desc">Gained exposure to digital communication systems, protocols, and simulation techniques.</p>
-        </div>
-      </div>
-      <div class="tl-item">
-        <div class="tl-date">2022 – 2026</div>
-        <div>
-          <p class="tl-role">B.Tech, Electronics &amp; Communication Engineering (AI/ML)</p>
-          <p class="tl-org">GITAM University, Visakhapatnam — CGPA 8.06/10</p>
-          <p class="tl-desc">Relevant coursework: Data Structures &amp; Algorithms, OOP, DBMS, Operating Systems, Computer Networks.</p>
-        </div>
-      </div>
-      <div class="tl-item">
-        <div class="tl-date">Class 12</div>
-        <div>
-          <p class="tl-role">Higher Secondary Education</p>
-          <p class="tl-org">Score: 90%+</p>
-        </div>
-      </div>
-      <div class="tl-item">
-        <div class="tl-date">Class 10</div>
-        <div>
-          <p class="tl-role">Secondary Education</p>
-          <p class="tl-org">Score: 90%+</p>
         </div>
       </div>
     </div>
